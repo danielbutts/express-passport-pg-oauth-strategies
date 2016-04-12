@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  ul
+    li #[h1 oAuth Strategies]
+    li #[a(class="btn", href='/auth/google') Google]
+    li #[a(class="btn", href='/auth/github') Github]
+    
+  pre.strategy-response
+    p= user

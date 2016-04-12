@@ -1,0 +1,88 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.galvanize {
+  margin-bottom: 15px;
+  height: 70px;
+}
+
+.galvanize img {
+  width: 250px;
+  float:left;
+}
+
+.galvanize h3 {
+  font-weight: 100;
+  float: right;
+  color: #777;
+}
+
+.container {
+  clear: both;
+}
+
+.container h1 {
+  font-weight: 300;
+  font-size: 20px;
+  opacity: .7;
+  padding: 0;
+  margin: 0;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.container ul li {
+  margin-left: 10px;
+  padding: 5px;
+}
+
+.container pre {
+  overflow-x: scroll;
+  padding: 5px 10px;
+  background: #eee;
+  font-size: 12px;
+}
+
+.container form {
+  background: rgba(203, 203, 203, 0.41);
+  display: inline-block;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.container form h2 {
+  font-size: 17px;
+  opacity: .7;
+  padding: 0;
+  margin: 0;
+}
+
+.container label {
+  padding-top: 10px;
+  display: block;
+  opacity: .5;
+}
+
+.container input {
+  font-size: 18px;
+  display: block;
+  padding: 5px;
+  width: 350px;
+}
+
+.container button {
+  margin-top: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
